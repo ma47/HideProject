@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7143bf</color>
+    <color name="colorPrimaryDark">#5d37a0</color>
+    <color name="colorAccent">#c542f4</color>
+    <color name="titleTextColor">#FFFFFF</color>
+    <color name="titleSelectedTabColor">#FFFFFF</color>
+    <color name="purple">#7143bf</color>
+    <color name="funnyGreen">#118C8B</color>
+    <color name="funnyGreenLight">#4ca6a6</color>
+</resources>

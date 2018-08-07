@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+
+    <View
+        android:id="@+id/div1"
+        style="@style/Divider"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/help" />
+
+    <View
+        android:id="@+id/div3"
+        style="@style/Divider"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pincode" />
+
+    <View
+        android:id="@+id/div4"
+        style="@style/Divider"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/feedback" />
+
+    <Button
+        android:id="@+id/pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:background="@drawable/ripple_effect"
+        android:gravity="start|center_vertical"
+        android:padding="18dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:text="Change Pin-Code"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pincode"
+        android:background="@drawable/ripple_effect"
+        android:gravity="start|center_vertical"
+        android:padding="18dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:text="Send us Feedback"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/div4"
+        android:background="@drawable/ripple_effect"
+        android:gravity="start|center_vertical"
+        android:padding="18dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:text="Help"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <Switch
+        android:id="@+id/on_off_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/help"
+        android:text="Shuffle Pin Keys"
+        android:textStyle="bold"
+        android:background="@drawable/ripple_effect"
+        android:gravity="start|center_vertical"
+        android:padding="18dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>

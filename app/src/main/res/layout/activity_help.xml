@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple">
+
+
+            <ImageView
+                android:id="@+id/icon_shield"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_shield"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/title_info"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:width = "0dp"
+                android:layout_below="@+id/icon_shield"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-bold"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Welcome To HideProject"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="449dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="right"
+        android:orientation="vertical">
+        >
+
+        <TextView
+            android:id="@+id/first_info"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/icon_shield"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:layout_gravity="center"
+            android:width="0dp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/second_info"
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/icon_shield"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:width="0dp"
+            android:ellipsize="marquee"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
